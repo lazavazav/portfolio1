@@ -26,7 +26,15 @@ body {
   z-index: 10;
   }
 
-.nav-link, .nav-link active {
+.nav-tabs {
+  display: block;
+}
+
+.nav-link:active{
+  display: none;
+}
+
+.nav-link, .nav-link:active {
   color: #A5BAB6;
   }
 .nav-link:hover {
