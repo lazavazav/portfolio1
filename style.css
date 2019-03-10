@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* //mobile first styling less than 576px */
+
 html {
   box-sizing: border-box;
   }
@@ -26,23 +26,11 @@ body {
   z-index: 10;
   }
 
-.nav-tabs {
-  display: block;
+.nav {
+  margin-top: 80px;
 }
-
-.nav-link:active{
-  display: none;
-}
-
-.nav-link, .nav-link:active {
+.nav-link {
   color: #A5BAB6;
-  }
-.nav-link:hover {
-  color: #E0D8DE;
-  }
-
-.navbar {
-  background-color: #142B32;
   }
 
 .a {
@@ -73,7 +61,8 @@ body {
 .d {
   display: flex;
   justify-content: space-around;
-  grid-column: 2 / 12 ;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
   grid-row: 3;  
   margin: 30px;
   }
@@ -110,12 +99,10 @@ body {
   z-index: 20;   
   }
 
- #proPic {
-  float: left;
-  border-radius: 50%;
-  shape-outside: circle(50%);
-  margin: 30px;
-}
+  #proPic {
+    border-radius: 50%;
+  }
+
 
 /* //the next three classes give the images in //the sample section a text overlay on //hover */
 .thumb {
@@ -529,6 +516,33 @@ button:active {
   position: absolute;
 	width: 180px;
 }
+
+.btn {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/acoustic-background-band-306175.jpg");
+}
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ 
+
+#proPic {
+  float: left;
+  border-radius: 50%;
+  shape-outside: circle(50%);
+  margin: 30px;
+}
+
+.nav {
+  margin-top: 40px;
+}
+
+
+ }
+
+
 
 
 
