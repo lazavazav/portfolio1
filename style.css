@@ -517,11 +517,6 @@ button:active {
 	width: 180px;
 }
 
-.btn {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/acoustic-background-band-306175.jpg");
-}
-
-
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
