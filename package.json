@@ -1,5 +1,5 @@
- {
-    "name": "portfolio",
+{
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "my portfolio and resume app",
   "main": "app.js",
@@ -18,9 +18,9 @@
   "homepage": "https://github.com/lazavazav/portfolio1#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "nodemailer": "^5.1.1"
   }
 }
-
