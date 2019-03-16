@@ -18,7 +18,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(7, auto);   
-  background-image: linear-gradient(#174545, #000E0E, #003333, #174545);	
+  background-image: linear-gradient(#174545, #003333, #174545);	
 	}
 
 .box {
@@ -545,6 +545,46 @@ button:active {
 	left: 140px;
   top: 105px;
   animation: popbubble 6s infinite linear forwards;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+ 
+}
+
+/*styling for modal*/
+
+.course-content {
+  background-color: #174545;
+  margin: 20% auto;
+  padding: 20px;
+  width: 60%;
+  box-shadow: 5px 10px #003333;
+  color: #e8f2ea;  
+  font-size: 20px;
+}
+
+
+.closeBtn {
+  color: #A5BAB6;
+  float: right;
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+.closeBtn:hover,.closeBtn:focus { /*on focus, cursor changes to a pointer*/
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 
