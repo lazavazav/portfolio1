@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box a"> <svg id="circles" height="300" width="300">
+                <g>
+                    <circle cx="180" cy="60" r="100" stroke="#008B8B" stroke-width="3" fill="#007F7F" />
+                    <circle cx="10" cy="10" r="150" stroke="#008B8B" stroke-width="3" fill="#006666" />
+
+                    <circle cx="60" cy="180" r="90" stroke="#008B8B" stroke-width="3" fill="#004C4C" />
+                </g>
+            </svg>
+        </div>
+        <div class="box b">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#samples">Samples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="box c" id="about"><img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/profile%20picture2.svg" width="200px"
+                height="210" alt="profile picture" id="proPic">
+            <h1>Leslie Zavarella</h1>
+            <h4>Full Stack MERN Developer</h4>
+            <p>I currently teach web design and music in a large suburban school district. I am continuing my studies to
+                transition into a full stack web developer focusing on the <span
+                    style="color: #f9ce4d; font-weight: bold; ">MERN stack.</span> I have worked as a teacher for 20+
+                years and in the tech industry as a freelance developer since 2013. I have a Master's Degree in
+                Education and extensive, additional coursework in Computer Science and Web Development. Below are links
+                to examples of my work and projects for clients. My teaching and artistic experience, project management
+                skills and expertise in current programming languages enable me to bring leadership, best practices and
+                inspiration to your team.<br><span style="color: #f9ce4d; font-weight: bold; "> Thank you for visiting
+                    my portfolio page.</span></p>
+        </div>
+
+        <div class="box d" id="samples">
+            <div class="card mb-3" style="max-width: 300px; border-radius: 50%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <a href="https://codepen.io/lazav/live/moqeML"><img src="public/images/cherrypie.jpg"
+                                class="card-img" alt="Cherry Pie"></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Terrie's Cherries</h5>
+                            <p class="card-text">This client needed a mockup for a business idea with modal popups, a
+                                css scallop and cherry images to achieve the look she wanted.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 300px; border-radius: 50%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <a href="https://codepen.io/lazav/live/EpZRPK"><img src="public/images/sewing.jpg"
+                                class="card-img" alt="Sewing"></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Sew Crafty</h5>
+                            <p class="card-text">This example has a working shopping cart coded with javascript, a
+                                gallery of products and multiple pages that slide in with jquery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mb-3" style="max-width: 300px; border-radius: 50%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <a href="http://leslieslessons.com"><img src="public/images/violin.jpg" class="card-img"
+                                alt="Violin"></a> </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Music Lessons</h5>
+                            <p class="card-text">This is a responsive site using css grid and built with Nodejs, Express
+                                and Nodemailer. It is hosted on Heroku.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="box e" id="experience">
+            <ul class="fa-ul">
+                <h3>Experience</h3>
+                <li><span class="fa-li"><i class="fas fa-circle" style="color:#f9ce4d"></i></span>2019</li>
+                <p>Teach Web Design Classes to grades 5-8.</p>
+                <li><span class="fa-li"><i class="fas fa-circle" style="color:#f9ce4d"></i></span>2016-present</li>
+                <p>Freelance Web Development</p>
+                <li><span class="fa-li"><i class="fas fa-circle" style="color:#f9ce4d"></i></span>2013-2016</li>
+                <p>Built and managed an ecommerce site similar to Etsy using the Wordpress CMS in a multisite
+                    environment.</p>
+                <li><span class="fa-li"><i class="fas fa-circle" style="color:#f9ce4d"></i></span>2003-present</li>
+                <p>Orchestra Director, Music Teacher grades 5-12.</p>
+                <li><span id="educ" class="fa-li"><i class="fas fa-circle" style="color:#f9584d"></i></span>Education
+                </li>
+                <p>Click to see my recent completed coursework</p>
+            </ul>
+
+            <div id="coursesModal" class="modal">
+                <div class="course-content">
+                    <span class="closeBtn">&times;</span>
+                    <ul class="courselist">Completed Coursework
+                        <li class="courses">Advanced Responsive Web Design</li>
+                        <li class="courses">CSS Grids and Flexbox for Responsive Design</li>
+                        <li class="courses">Design for Developers</li>
+                        <li class="courses">CSS in-Depth</li>
+                        <li class="courses">Intro to React</li>
+                        <li class="courses">Full Stack for Front-Ends Part 1 and 2</li>
+                        <li class="courses">The Complete Node JS Course</li>
+                        <li class="courses">Frontend Master's Course on JavaScript Programming</li>
+                        <li class="courses">Frontend Master's Complete Intro to Web Development</li>
+                        <li class="courses">Interactivity with Javascript</li>
+                        <li class="courses">Frontend Master's Course on Visual Studio Code</li>
+                        <li class="courses">Javascript, JQuery and Json</li>
+                        <li class="courses">Frontend Foundations</li>
+                        <li class="courses">Computing in Python: fundamentals and procedural programming</li>
+                        <li class="courses">Building Web Applications in PHP</li>
+                        <li class="courses">A Smarter Way to learn Javascript</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="box f" id="contact">
+            <div class="margin">
+                <h3>Contact Me</h3>
+                <div class="inputGroup">
+                    <input type="text" required />
+                    <span class="inputBar"></span>
+                    <label>Name</label>
+                </div>
+
+                <div class="inputGroup">
+                    <input type="text" required />
+                    <span class="inputBar"></span>
+                    <label>Email</label>
+                </div>
+
+                <div class="inputGroup">
+                    <textarea type="textarea" required></textarea>
+                    <span class="inputBar"></span>
+                    <label>Message</label>
+                </div>
+
+                <button>Send</button>
+            </div>
+        </div>
+
+        <div class="box g">
+
+            <div class="github"><a href="https://github.com/lazavazav">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/GitHub-Mark-64px.png" height="60px"
+                        width="60px" alt="github icon"></a></div>
+
+            <div class"footinfo">
+                <h6>Leslie Zavarella</h6>
+                <p>me@lesliezavarella.com</p>
+            </div>
+
+            <div class="codepen"><a href="https://codepen.io/lazav"> <img
+                        src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png"
+                        height="60px" width="60px" alt="codepen icon">
+                </a></div>
+
+        </div>
+
+        <div class="box h"><svg id="circles" height="300" width="300">
+                <g>
+                    <circle cx="180" cy="60" r="100" stroke="#008B8B" stroke-width="3" fill="#007F7F" />
+                    <circle cx="10" cy="10" r="150" stroke="#008B8B" stroke-width="3" fill="#006666" />
+
+                    <circle cx="60" cy="180" r="90" stroke="#008B8B" stroke-width="3" fill="#004C4C" />
+                </g>
+            </svg>
+
+            <!-- popping bubbles in box h -->
+            <div id="popwrap">
+                <div class="pop z1"></div>
+                <div class="pop z2"></div>
+                <div class="pop z3"></div>
+                <div class="pop z4"></div>
+                <div class="pop z5"></div>
+            </div>
+
+        </div>
+
+        <!-- floating bubbles in box a -->
+        <div id="background-wrap">
+            <div class="bubble x1"></div>
+            <div class="bubble x2"></div>
+            <div class="bubble x3"></div>
+            <div class="bubble x4"></div>
+            <div class="bubble x5"></div>
+            <div class="bubble x6"></div>
+            <div class="bubble x7"></div>
+            <div class="bubble x8"></div>
+            <div class="bubble x9"></div>
+            <div class="bubble x10"></div>
+        </div>
+
+    </div>
+    <script src="public/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
