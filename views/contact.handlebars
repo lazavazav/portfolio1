@@ -41,6 +41,7 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
+            { {msg}}
         </div>
 
         <div class="box c" id="about"><img
@@ -159,7 +160,7 @@
 
 
         <div class="box f" id="contact">
-            <div class="margin">
+            <form class="margin" method="POST" action="send">
                 <h3>Contact Me</h3>
                 <div class="inputGroup">
                     <input type="text" required />
@@ -179,8 +180,8 @@
                     <label>Message</label>
                 </div>
 
-                <button>Send</button>
-            </div>
+                <button type="submit">Send</button>
+            </form>
         </div>
 
         <div class="box g">

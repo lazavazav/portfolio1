@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 
 app.post('/send', (req, res) => {
     const output = ` 
-    <p>You have a new request from iSiteStack</p>
+    <p>You have a new request from your portfolio page</p>
     <h3>Contact Details</h3>
     <ul>
       <li>Name: ${req.body.name}</li>
