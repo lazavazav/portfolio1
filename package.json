@@ -1,5 +1,5 @@
-{
-  "name": "portfolio",
+ {
+    "name": "portfolio",
   "version": "1.0.0",
   "description": "my portfolio and resume app",
   "main": "app.js",
@@ -23,3 +23,4 @@
     "nodemailer": "^5.1.1"
   }
 }
+
