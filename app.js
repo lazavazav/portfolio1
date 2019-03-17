@@ -4,7 +4,7 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv').config();
-const bootstrap = require('bootstrap');
+
 
 const app = express();
 //view engine setup
