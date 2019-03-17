@@ -587,6 +587,12 @@ button:active {
   cursor: pointer;
 }
 
+#educ:hover,#educ:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
