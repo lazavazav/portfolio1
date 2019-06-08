@@ -3,9 +3,8 @@ const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
-const dotenv = require('dotenv').config();
-const jquery = require('jquery');
-const bootstrap = require('bootstrap');
+// const dotenv = require('dotenv').config();
+
 
 
 const app = express();
@@ -22,7 +21,7 @@ app.use(bodyParser.json());
 
 //routes
 app.get('/', (req, res) => {
-    res.render('contact');
+    res.render('contact', {layout: false});
 });
 
 app.post('/send', (req, res) => {
