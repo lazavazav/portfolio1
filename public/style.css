@@ -547,30 +547,28 @@ button:active {
   animation: popbubble 6s infinite linear forwards;
 }
 
-
 .modal {
   display: none;
-  position: fixed;
-  z-index: 50;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
   background-color: rgba(0,0,0,0.5);
- 
 }
 
 /*styling for modal*/
 
 .course-content {
+  position: relative;
+  z-index: 50;
   background-color: #174545;
-  margin: 20% auto;
-  padding: 20px;
+  margin: 10px auto 10px auto;
+  padding: 10px;
   width: 60%;
   box-shadow: 5px 10px #003333;
-  color: #e8f2ea;  
-  font-size: 20px;
+  color: #e8f2ea;
+  font-size: 15px;
+
 }
 
 
@@ -627,9 +625,6 @@ button:active {
 .card-text {
   margin-top: -10px;
 }
-
-
-
  }
 
 
